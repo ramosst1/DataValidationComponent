@@ -1,0 +1,88 @@
+[
+  {
+    "Rule": "Required",
+    "Message": "The {FieldName} is required."
+  },
+  {
+    "Rule": "IsEmail",
+    "Message": "The {FieldName} contains an invalid email address. Example: myname@domain.com."
+  },
+  {
+    "Rule": "IsUserName",
+    "Message": "The {FieldName} is an invalid user name. The {FieldName} contains upper and lower case letters, numbers from 0-9, and must contain more than 9 and less than 30 characters."
+  },
+  {
+    "Rule": "Password",
+    "Message": "The {FieldName} is an invalid password. The field only accepts letters from A-Z, numbers from 0-9. The field must contain more than 4 and less than 30 characters."
+  },
+  {
+    "Rule": "AlphaCharOnly",
+    "Message": "The {FieldName} must contain only alpha characters."
+  },
+  {
+    "Rule": "AlphaNumericOnly",
+    "Message": "The {FieldName} must contain only alpha and numeric characters."
+  },
+  {
+    "Rule": "NumbersOnly",
+    "Message": "The {FieldName} must contain only numbers."
+  },
+  {
+    "Rule": "LengthMin",
+    "Message": "The {FieldName} can not contain fewer than {FieldLength} characters."
+  },
+  {
+    "Rule": "LengthMax",
+    "Message": "The {FieldName} may not exceed {FieldLength} characters."
+  },
+  {
+    "Rule": "IsCurrency",
+    "Message": "The {FieldName} is not a currency."
+  },
+  {
+    "Rule": "IsDate",
+    "Message": "The {FieldName} is not a date."
+  },
+  {
+    "Rule": "Range",
+    "Message": "The {FieldName} is not with in a range between {RangeFrom} and {RangeTo}."
+  },
+  {
+    "Rule": "AreEqual",
+    "Message": "The {FieldName} and {FieldNameCompare} are equal."
+  },
+  {
+    "Rule": "AreNotEqual",
+    "Message": "The {FieldName} and {FieldNameCompare} are not equal."
+  },
+  {
+    "Rule": "Exact",
+    "Message": "The {FieldName} and {FieldNameCompare} are exact."
+  },
+  {
+    "Rule": "NotExact",
+    "Message": "The {FieldName} and {FieldNameCompare} are not exact."
+  },
+  {
+    "Rule": "GreaterThan",
+    "Message": "The {FieldName} must be greater than {FieldCriteria}."
+  },
+  {
+    "Rule": "LessThan",
+    "Message": "The {FieldName} must be greater than {FieldCriteria}."
+  },
+  {
+    "Rule": "Equal",
+    "Message": "The {FieldName} does not equal {FieldCriteria}."
+  },
+  {
+    "Rule": "GreaterThanCompare",
+    "Message": "The {FieldName} is not greater than {FieldNameCompare}."
+  },
+  {
+    "Rule": "LessThanCompare",
+    "Message": "The {FieldName} is not less than {FieldNameCompare}."
+  }
+
+] 
+

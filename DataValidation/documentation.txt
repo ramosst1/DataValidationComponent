@@ -1,0 +1,51 @@
+﻿
+
+Single Field String:
+
+	Required, 
+	IsEmail, 
+	IsUserName, 
+	AlphaCharOnly, 
+	NumbersOnly, 
+	Password, 
+	LengthMin(number) ex LengthMin(5), 
+	LengthMax(number) ex LengthMax(5), 
+	AlphaNumericOnly,
+	IsCurrency,
+	IsDate(format) Ex IsDate(MM/dd/yyyy)
+
+
+Compare Field String:
+
+	AreEqual, 
+	AreNotEqual,
+	Exact,
+	NotExact
+
+
+Single Field Int
+
+	Required,
+	GreaterThan(number), ex GreaterThan(5)
+	LessThan(number), ex LessThan(5)
+	Equal(number), ex Equal(5)
+
+Compare Field Int:
+	AreEqual, 
+	AreNotEqual,
+	GreaterThanCompare,
+	LessThanCompare
+
+Compare Field Date
+	AreEqual, 
+	AreNotEqual,
+	GreaterThanCompare,
+	LessThanCompare
+
+Example:
+
+    var AValidator = new DataValidation.Validator();
+
+    AValidator.AddField("ZipCode", "12345", "Required,NumOnly,LengthMin(5),LengthMax(5)");
+
+    var Messages = AValidator.Validate();
